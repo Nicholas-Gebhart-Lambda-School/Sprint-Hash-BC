@@ -25,6 +25,9 @@ def proof_of_work(last_proof):
     last_hash = hashlib.sha256(str_hash).hexdigest()
 
     print("Searching for next proof")
+    # I believe the purpose of a proof isn't decidedly to have the most
+    # unique implementation, but to try to ensure that you're consistently
+    # making guesses that haven't been made by somebody else before you.
     proof = 9823492342
 
     while valid_proof(last_hash, proof) is False:
