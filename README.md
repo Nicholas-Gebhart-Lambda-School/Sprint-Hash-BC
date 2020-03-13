@@ -27,7 +27,7 @@ Explain in detail the workings of a dynamic array:
 * What is the worse case scenario if you try to extend the storage size of a dynamic array?
 
 Explain how a blockchain is structured. What are the blocks, what is the chain? How is the data organized?
- 
+
 Explain how proof of work functions. How does it operate. How does this protect the chain from attack. What kind of attack is possible?
 
 ## Project Set Up
@@ -44,7 +44,7 @@ A hash table implementation has been included for you already. Your task is to g
 
 For the blockchain portion of the challenge, you will be writing code for a new miner that will solve a different Proof of Work algorithm than the one we have been working with.
 
-Your goal is to mine at least one coin.  Keep in mind that with many people competing over the same coins, this may take a long time.  By our math, we expect that an average solution should be the first to find a solution at least once in an hour or two of mining.  
+Your goal is to mine at least one coin.  Keep in mind that with many people competing over the same coins, this may take a long time.  By our math, we expect that an average solution should be the first to find a solution at least once in an hour or two of mining.
 
 ## Minimum Viable Product
 
